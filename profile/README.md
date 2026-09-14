@@ -21,7 +21,7 @@ Thin **customer-facing** surfaces: public MCP/API contracts, SDKs, examples, cha
 - Name clearly so the lane is obvious (e.g. public contract vs private implementation).
 
 ### Free-plan note
-GitHub Free cannot enforce “private-only creation” or org-wide 2FA require. Discipline: create private by default; only owners publish.
+GitHub Free cannot enforce “private-only creation”, org-wide 2FA require, or org/repo rulesets. Discipline: create private by default; only owners publish. Team unlocks rulesets + 2FA require.
 
-### Security baseline (new repos)
-Dependabot alerts/updates, dependency graph, secret scanning, and push protection are enabled for new repositories where GitHub allows it.
+### Security baseline (org)
+Dependabot alerts/updates, dependency graph, secret scanning + push protection for new repos; web commit signoff required; base permission none; private forks off.
